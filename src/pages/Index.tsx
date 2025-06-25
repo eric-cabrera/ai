@@ -1,8 +1,9 @@
-
+import React from "react";
 import Header from "@/components/Header";
 import SocialLinks from "@/components/SocialLinks";
 import AIJourneySection from "@/components/AIJourneySection";
 import GeneralAudienceTrack from "@/components/GeneralAudienceTrack";
+import TrainingHighlights from "@/components/TrainingHighlights";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
         <SocialLinks />
         <AIJourneySection />
         <GeneralAudienceTrack />
+        <TrainingHighlights />
       </div>
     </div>
   );

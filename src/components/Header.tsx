@@ -1,13 +1,18 @@
-
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const Header = () => {
   return (
     <header className="text-center mb-8">
       <div className="mb-6">
-        <Avatar className="w-32 h-32 mx-auto mb-6 border-2 border-gray-200">
-          <AvatarImage src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face" alt="Eric Cabrera" />
-          <AvatarFallback className="text-2xl font-semibold bg-gray-100">EC</AvatarFallback>
+        <Avatar className="w-48 h-48 mx-auto mb-6 border-2 border-gray-200">
+          <AvatarImage
+            src="/20230831_131327.jpg"
+            alt="Eric Cabrera"
+            className="w-48 h-48 object-cover"
+          />
+          <AvatarFallback className="text-3xl font-semibold bg-gray-100">
+            EC
+          </AvatarFallback>
         </Avatar>
       </div>
       <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">

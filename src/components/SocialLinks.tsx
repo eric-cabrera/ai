@@ -1,5 +1,4 @@
-
-import { Github, Mail, Link } from "lucide-react";
+import { Github, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const SocialLinks = () => {
@@ -7,20 +6,14 @@ const SocialLinks = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/EricNeural",
+      href: "https://github.com/eric-cabrera",
       external: true
     },
     {
       icon: Mail,
-      label: "Email",
-      href: "mailto:eric-cabrera@live.com",
+      label: "eric-cabrera@live.com",
+      // No href property, so it will not be clickable
       external: false
-    },
-    {
-      icon: Link,
-      label: "Eric Cabrera Blog",
-      href: "#",
-      external: true
     }
   ];
 

@@ -1,0 +1,27 @@
+<img src="/eric.jpg" alt="My Photo" class="w-32 h-32 rounded-full mx-auto mb-6 shadow-lg" />
+<div class="max-w-xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-md border border-gray-200">
+  <h2 class="text-2xl font-bold mb-4 text-gray-800">Technologies Used to Build This Site</h2>
+  <ul class="list-disc pl-6 text-gray-700 space-y-1">
+    <li><strong>React</strong>: A JavaScript library for building user interfaces.</li>
+    <li><strong>TypeScript</strong>: A strongly typed programming language that builds on JavaScript.</li>
+    <li><strong>Vite</strong>: A fast frontend build tool and development server.</li>
+    <li><strong>Tailwind CSS</strong>: A utility-first CSS framework for styling.</li>
+    <li><strong>Shadcn UI</strong>: A collection of accessible React components built with Radix UI and Tailwind CSS.</li>
+    <li><strong>ESLint</strong>: For code linting and quality.</li>
+    <li><strong>PostCSS</strong>: For transforming CSS with JavaScript plugins.</li>
+  </ul>
+</div>
+
+<div class="max-w-xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-md border border-blue-200">
+  <h2 class="text-2xl font-bold mb-4 text-blue-800">How This Site is Deployed to GitHub Pages</h2>
+  <ol class="list-decimal pl-6 text-gray-700 space-y-2">
+    <li><strong>Project Setup:</strong> The project is built with React, TypeScript, Vite, Tailwind CSS, and Shadcn UI. All source code is in the <code>ai</code> folder.</li>
+    <li><strong>Vite Configuration:</strong> The <code>vite.config.ts</code> file sets <code>base: '/ai/'</code> so that all assets and routes work under the <code>/ai/</code> subpath, matching the GitHub Pages URL.</li>
+    <li><strong>React Router:</strong> The <code>BrowserRouter</code> in <code>App.tsx</code> uses <code>basename="/ai"</code> to ensure client-side routing works on GitHub Pages and in local preview.</li>
+    <li><strong>GitHub Actions Workflow:</strong> A workflow file in <code>.github/workflows/deploy.yml</code> automatically builds and deploys the site to the <code>gh-pages</code> branch whenever the main branch is updated.</li>
+    <li><strong>Build & Preview:</strong> Run <code>npm run build</code> to generate the static site in the <code>dist</code> folder. Use <code>npm run preview</code> to test locally at <code>http://localhost:4173/ai/</code>.</li>
+    <li><strong>GitHub Pages Settings:</strong> In the repository settings, GitHub Pages is configured to serve from the <code>gh-pages</code> branch and the <code>/ai/</code> subpath.</li>
+    <li><strong>Result:</strong> The site is live at <code>https://&lt;your-github-username&gt;.github.io/ai/</code> and updates automatically on every push to the main branch.</li>
+  </ol>
+  <p class="mt-4 text-gray-600">This setup ensures a modern, fast, and fully automated deployment workflow for static sites using Vite and React on GitHub Pages.</p>
+</div>
