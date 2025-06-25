@@ -6,7 +6,7 @@ const Header = () => {
       <div className="mb-6">
         <Avatar className="w-48 h-48 mx-auto mb-6 border-2 border-gray-200">
           <AvatarImage
-            src="/20230831_131327.jpg"
+            src={`${import.meta.env.BASE_URL}20230831_131327.jpg`}
             alt="Eric Cabrera"
             className="w-48 h-48 object-cover"
           />
