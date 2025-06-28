@@ -28,7 +28,7 @@ const GeneralAudienceTrack = () => {
                 size="lg"
               >
                 <a 
-                  href="/how-this-site-was-built" 
+                  href="/ai/how-this-site-was-built" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2"

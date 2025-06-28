@@ -19,7 +19,7 @@ const TrainingHighlights = () => {
           </ul>
           <Button asChild className="w-full" size="lg">
             <a
-              href="/training-highlights"
+              href="/ai/training-highlights"
               className="flex items-center justify-center gap-2"
             >
               View Details
