@@ -45,6 +45,16 @@ const HowThisSiteWasBuilt = () => {
                 prompts, and techniques used to build this site, including code generation, design decisions, 
                 and optimization strategies.
               </p>
+              <div className="mt-8 p-6 bg-green-50 border border-green-200 rounded-lg">
+                <h3 className="text-2xl font-bold mb-2 text-green-800">How to Run This Site Locally & Prepare for Production</h3>
+                <ul className="list-disc pl-6 text-gray-700 space-y-2">
+                  <li><strong>Install dependencies:</strong> Run <code>npm install</code> to set up all required packages.</li>
+                  <li><strong>Start the development server:</strong> Use <code>npm run dev</code> to preview changes instantly as you code.</li>
+                  <li><strong>Build for production:</strong> Run <code>npm run build</code> to generate an optimized static version of the site.</li>
+                  <li><strong>Preview the production build:</strong> Use <code>npm run preview</code> to test the final output locally before deploying.</li>
+                </ul>
+                <p className="mt-4 text-gray-600">This workflow ensures your site is tested and optimized before going live, following best practices for modern web development.</p>
+              </div>
             </CardContent>
           </Card>
 
