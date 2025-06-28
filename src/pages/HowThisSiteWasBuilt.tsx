@@ -54,6 +54,7 @@ const HowThisSiteWasBuilt = () => {
                   <li><strong>Preview the production build:</strong> Use <code>npm run preview</code> to test the final output locally before deploying.</li>
                 </ul>
                 <p className="mt-4 text-gray-600">This workflow ensures your site is tested and optimized before going live, following best practices for modern web development.</p>
+                <p className="mt-2 text-gray-600">For automated deployment, the <code>.github/workflows/deploy.yml</code> file is used. This GitHub Actions workflow builds and deploys your site to GitHub Pages every time you push to the <strong>main</strong> branch.</p>
               </div>
             </CardContent>
           </Card>
